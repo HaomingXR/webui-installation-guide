@@ -39,3 +39,10 @@
 7. 在 `URL for extension's git repository` 輸入 `https://github.com/Gourieff/sd-webui-reactor` 接著按 `Install`
 8. 安裝需數分鐘
 9. `Install` 下方出現安裝完成即可
+
+## ADetailer 臉部微調
+
+1. 在介面中打開 **Extensions** 的頁面
+2. 點選 `Install from URL`
+3. 在 `URL for extension's git repository` 輸入 `https://github.com/Bing-su/adetailer` 接著按 `Install`
+4. `Install` 下方出現安裝完成即可
