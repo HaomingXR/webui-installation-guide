@@ -6,15 +6,33 @@
 
 1. 點擊此[連結](https://github.com/lllyasviel/stable-diffusion-webui-forge/releases/download/latest/webui_forge_cu121_torch21.7z)進行下載
 3. 將所有內容解壓縮至安裝資料夾
+
+<p align="center">
+<img src="img/folder.jpg" width=384>
+</p>
+
 4. 執行 **`update.bat`**
 5. 右鍵編輯 `webui` 資料夾中的 **`webui-user.bat`** 檔案
+
+<p align="center">
+<img src="img/edit.jpg" width=384>
+</p>
+
 6. 在 `set COMMANDLINE_ARGS=` 後面加上 `--xformers --api --port 8888`
+
+<p align="center">
+<img src="img/args.jpg" width=384>
+</p>
 
 ## 下載模型
 
 1. 下載 [Realistic Vision](https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=pruned&fp=fp16) *(2 GB)*
     - 或是前往 [CivitAI](https://civitai.com/models)下載其它 **`Checkpoint`**
 2. 將下載的 `.safetensors` 模型放入 `webui\models\Stable-diffusion` 資料夾內
+
+<p align="center">
+<img src="img/mdl.jpg" width=384>
+</p>
 
 ## 執行
 
@@ -29,15 +47,30 @@
 0. 先關閉 Webui
 1. 下載 [insightface](https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp310-cp310-win_amd64.whl)
 2. 於安裝資料夾，點選路徑，輸入 `cmd` 以開啟 Console
-3. 執行
+
+<p align="center">
+<img src="img/cmd.jpg" width=384>
+</p>
+
+3. 輸入下述，再將剛剛下載的 `.whl` 檔案拖入後，按 `Enter` 執行
     ```bash
-    system\python\python.exe -m pip install insightface-0.7.3-cp310-cp310-win_amd64.whl
+    system\python\python.exe -m pip install
     ```
+
+<p align="center">
+<img src="img/pip.jpg" width=384>
+</p>
+
 4. 執行 **`run.bat`**
 5. 在介面中打開 **Extensions** 的頁面
 6. 點選 `Install from URL`
 7. 在 `URL for extension's git repository` 輸入 `https://github.com/Gourieff/sd-webui-reactor` 接著按 `Install`
-8. 安裝需數分鐘
+
+<p align="center">
+<img src="img/ext.jpg" width=384>
+</p>
+
+8. 安裝需 5+ 分鐘
 9. `Install` 下方出現安裝完成即可
 
 ## ADetailer 臉部微調
